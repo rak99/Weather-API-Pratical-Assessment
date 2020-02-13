@@ -46,10 +46,10 @@ window.addEventListener('DOMContentLoaded', (e) => {
           }
           console.log(JSON.stringify(data.weather[0].main));
           // Manipulate assigned div's innerText to contain weather data.
-          document.getElementById('specific-weather').innerText = JSON.stringify(data.weather[0].main);
-          document.getElementById('weather').innerText = JSON.stringify(data.weather[0].description);
-          document.getElementById('main').innerText = JSON.stringify(data.main.temp) + ' Celsius';
-          document.getElementById('wind').innerText = JSON.stringify(data.wind.speed) + ' km/h';
+          document.getElementById('specific-weather').textContent = JSON.stringify(data.weather[0].main);
+          document.getElementById('weather').textContent = JSON.stringify(data.weather[0].description);
+          document.getElementById('main').textContent = JSON.stringify(data.main.temp) + ' Celsius';
+          document.getElementById('wind').textContent = JSON.stringify(data.wind.speed) + ' km/h';
         })
       });
     }

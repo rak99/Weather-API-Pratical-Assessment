@@ -1,0 +1,15 @@
+{
+  "name": "weather-api-interview-assessment",
+  "version": "1.0.0",
+  "description": "Assessment for the 2nd interview tomorrow",
+  "main": "index.js",
+  "dependencies": {
+    "geolocation": "^0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

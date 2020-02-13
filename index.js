@@ -28,7 +28,7 @@ window.addEventListener('DOMContentLoaded', (e) => {
   document.getElementById('fetchWeatherAPI').addEventListener('click', (e) => {
     console.log('Button has been clicked, fetch weather API data');
 
-    // Use browser's built in navigator class
+    // Use browser's built in geolocation API
     navigator.geolocation.getCurrentPosition(positionFound, geolocationError);
 
     function positionFound(position) {
